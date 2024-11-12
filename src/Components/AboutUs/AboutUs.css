@@ -1,0 +1,71 @@
+
+.about-us {
+  font-family: 'Arial, sans-serif';
+  color: #8B4513;
+  text-align: center;
+  background-color: #fff8ec;
+}
+
+.header h3 {
+  font-size: 1.8rem;
+  color: #8B4513;
+}
+
+.header h1 {
+  position: relative;
+  color: #8B4513;
+}
+
+p {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+
+.highlight {
+  color: #8B4513;
+  font-weight: bold;
+}
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: auto;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+  background-color: #fff8ec; 
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer h3 {
+  color: #8B4513;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.footer p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: left; 
+}

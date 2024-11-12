@@ -1,0 +1,36 @@
+.featured-cakes {
+    padding: 40px 20px;
+    background-color:#fff8ec;
+    text-align: center;
+}
+  
+.featured-cakes h2 {
+    font-size: 2em;
+    color: #a67c00;
+    margin-bottom: 20px;
+}
+
+.featured-cakes h2:hover{
+  color: #d2691e;
+}
+ 
+.featured-cakes p {
+    font-size: 1.6em;
+    color:#a67c00;
+    margin-bottom: 20px;
+
+}
+.featured-cakes p:hover{
+  color: #d2691e;
+}
+  
+.cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+  
+  
+  

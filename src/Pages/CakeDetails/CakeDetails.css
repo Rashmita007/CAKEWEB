@@ -1,0 +1,97 @@
+.cake-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cake-image {
+    flex: 0 0 300px; 
+}
+
+.cake-image img {
+    width: 150%;
+    height: 100%;
+    margin-left: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    flex: 1;
+    margin-left: 40px;
+    max-width: 500px;
+    color: #4a4a4a;
+}
+
+.cake-info h2 {
+    color: #8b4513;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.cake-info p {
+    width: 300px;
+    position: sticky;
+    top: 0;
+}
+
+.price {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.weight-selector h4, .quantity-selector h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #8b4513;
+}
+
+.weight-selector button, .quantity-selector button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid blanchedalmond; /* Yellow border */
+    background-color:blanchedalmond; /* Yellow background */
+    color: #4a4a4a; /* Darker text color */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 5px;
+    font-size: 18px; /* Larger font */
+}
+
+.weight-selector button.selected, .weight-selector button:hover {
+    background-color: #8B4513; /* Darker yellow on hover/selected */
+    color: #fff;
+}
+
+.quantity-selector button {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.quantity-selector span {
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px; /* Larger button size */
+    background-color:blanchedalmond; /* Yellow background */
+    color: #4a4a4a; /* Darker text color */
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart:hover {
+    background-color: #8B4513; /* Darker yellow on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); /* Slight lift on hover */
+}

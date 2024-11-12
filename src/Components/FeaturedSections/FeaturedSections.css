@@ -1,0 +1,55 @@
+
+.featured-sections {
+  padding: 2.6rem;
+  background-color: #fff8ec;
+  text-align: center;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.feature h2 {
+  color: #a67c00;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+
+.feature h2:hover {
+  color: #d2691e;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+
+.highlights div {
+  background: linear-gradient(135deg, #f7e6cc, #ffe4b5);
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 20%;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.highlights div:hover {
+  background:linear-gradient(135deg, #f7e6cc, #f4b283);
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

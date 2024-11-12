@@ -1,0 +1,74 @@
+.categories-carousel {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .categories-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .category-item {
+    position: relative;
+  }
+  
+  .category-image-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  }
+  
+  .category-image-container:hover .category-image {
+    transform: scale(1.05);
+  }
+  
+  .category-title {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .category-title a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .category-title a:hover {
+    color: #ffcc00; /* Gold hover effect */
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slick-dots li button:before {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 30px;
+    color: #fff;
+  }
+  
